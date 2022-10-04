@@ -49,7 +49,7 @@ a {
 }
 
 .logo a {
-    width: 130px;
+    width: 100%;
     display: flex;
     margin-right: 51px;
 }
@@ -356,7 +356,7 @@ a {
     line-height: 40px;
     color: #000000;
     margin-bottom: 23px;
-    width: 920px;
+    width: 100%;
 }
 
 .text-revolut {
@@ -498,7 +498,7 @@ a {
     line-height: 30px;
     text-align: center;
     color: #000000;
-    width: 438px;
+    width: 100%;
     margin: 0 auto;
     margin-bottom: 54px;
 }
@@ -647,8 +647,9 @@ a {
     .logo-nav {
         margin-bottom: 30px;
     }
+
     .button-first, .button-second {
-        width: 230px;
+        width: 250px;
         height: 55px;
     }
 
@@ -662,19 +663,19 @@ a {
     }
 
     .image-main {
-        width: 600px;
+        width: 100%;
         margin-top: 50px;
     }
 
     .title {
         font-size: 50px;
-        padding: 30px 0;
+        padding: 40px 0;
         width: 100%;
         text-align: center;
     }
 
     .description-text {
-        width: 600px;
+        width: 100%;
         text-align: center;
         margin: 0 auto;
         margin-bottom: 50px;
@@ -709,13 +710,14 @@ a {
         text-align: center;
         font-size: 25px;
         line-height: 35px;
-        width: 630px;
+        width: 100%;
     }
 
    .block-size {
         flex-direction: column;
         align-items: center;
     }
+
     .text-start a {
         font-size: 35px;
         margin: 0 auto;
@@ -741,7 +743,12 @@ a {
     }    
 
     .text-description-local {
-        width: 291px;
+        width: 100%;
+    }
+
+    .title-orange {
+        width: 100%;
+        font-size: 76px;
     }
 
     .text-revolut-about {
@@ -758,7 +765,8 @@ a {
         align-items: center;
     }
 
-    .icon_G2, .icon_capterra {
+    .icon_G2, 
+    .icon_capterra {
         flex-direction: row;
     }
 
@@ -770,9 +778,12 @@ a {
         margin-right: 0;
         margin-bottom: 25px;
     }
+
     .cake-title {
-        width: 530px;
-        font-size: 40px;
+        font-size: 55px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
     }  
 
     .line-cake {
@@ -787,7 +798,9 @@ a {
     }
 
     .title-tools {
-        margin-bottom: 40px;
+        padding-bottom: 40px;
+        width: 100%;
+        font-size: 66px;
     }
 
     .button-tools {
@@ -800,6 +813,10 @@ a {
         font-size: 22px;
         width: 500px;
         height: 70px;
+    }
+
+    .img-bird {
+        width: 100%;
     }
 
     .container-main, .container-footer  {
@@ -815,18 +832,18 @@ a {
     .title-ride {
         margin: 0 auto;
         margin-bottom: 25px;
-        font-size: 60px;
-        width: 400px;
+        font-size: 57px;
+        width: 100%;
     }
 
     .image-ride {
-        height: 500px;
         width: 100%;
         margin-bottom: 0;
     }
 
     .image-specialized {
-        width: 143px;
+        width: 120px;
+        margin-top: 25px;
     }
 
     .text-footer {
@@ -840,11 +857,11 @@ a {
 
     .container-footer {
         font-size: 30px;
-        width: 300px;
+        width: 100%;
     }
 
     .link-footer {
-        font-size: 24px;
+        font-size: 23px;
         line-height: 35px;
         margin-bottom: 23px;
     }
@@ -855,10 +872,6 @@ a {
         width: 100%;
         flex: 0 0 100%;
         border-left: 0;
-    }
-
-    .decription-tools {
-        width: 535px;
     }
 
     .line-cake {
@@ -873,20 +886,16 @@ a {
     }
 
     .margin ~ .item {
-        margin-left: 0;
+        margin-left: 20px;
     }
 
     .fix-size-container .list-items {
-        width: 550px;
+        width: 100%;
         justify-content: space-between;
     }
 
-    .item, .link {
-       font-size: 19px; 
-    }
-
     .logo-nav {
-        width: 160px;
+        width: 100%;
     }
 
     .logo .img {
@@ -916,7 +925,11 @@ a {
     }
 
     .text-box {
-        width: 620px;
+        width: 500px;
+    }
+
+    .title-orange {
+        width: 100%; 
     }
 
     .card-local-flex {
@@ -951,12 +964,13 @@ a {
     }
 
     .text-revolut-about {
-        width: 640px;
+        width: 100%;
     }
 
     .title-tools {
-        width: 670px;
+        width: 100%;
         font-size: 50px;
+        line-height: 60px;
     }
 
     .img-bird {
@@ -964,8 +978,8 @@ a {
     }
 
     .title-orange {
-        width: 650px;
-        font-size: 60px;
+        width: 100%;
+        font-size: 55px;
     }
 }
 
@@ -994,8 +1008,10 @@ a {
         height: 60px;
     }
 
-    .button-first, .button-second {
+    .button-first, 
+    .button-second {
         width: 100%;
+        font-size: 20px;
     }
 
     .button-first {
@@ -1005,6 +1021,7 @@ a {
     .line {
         margin-top: 70px;
     }
+
     .image-main {
         width: 100%;
     }
@@ -1032,7 +1049,7 @@ a {
     }
 
     .text-box {
-        width: 500px;
+        width: 100%;
     }
 
     .img-colaborate {
@@ -1041,6 +1058,7 @@ a {
 
     .title-content {
         font-size: 45px;
+        width: 100%;
     }
 
     .block-size {
@@ -1051,6 +1069,10 @@ a {
     .image-order {
         margin-bottom: 0;
         margin-top: 0;
+    }
+
+    .image-ride {
+        width: 100%;
     }
 
     .size {
@@ -1069,14 +1091,16 @@ a {
 
     .card {
         margin: 0 auto;
+        padding-bottom: 25px;
     }
 
     .description-card {
         padding-bottom: 50px;
+        width: 100%;
     }
 
     .text-revolut-about {
-        width: 510px;
+        width: 100%;
         font-size: 29px;
         line-height: 37px;
     }
@@ -1085,10 +1109,18 @@ a {
         font-size: 21px;
     }
 
+    .logo { 
+        margin-left: 35px;
+    }
+
     .title-tools {
-        width: 549px;
+        width: 100%;
         font-size: 42px;
         line-height: 65px;
+    }
+
+    .cake-title {
+        font-size: 44px;
     }
 
     .button-tools {
@@ -1096,7 +1128,7 @@ a {
     }
 
     .title-orange {
-        width: 550px;
+        width: 100%;
         font-size: 40px;  
         line-height: 60px;
     }
@@ -1109,10 +1141,6 @@ a {
         font-size: 50px;
     }
 
-    .localise-title {
-        width: 233px;
-    }
-
     .background-color-cake .span-cake-first {
         border-top: 1px solid #000;
         padding: 50px 13px 0 0;
@@ -1122,11 +1150,15 @@ a {
     }
 
     .decription-tools {
-        width: 535px;
+        width: 100%;
     }
 
     .line-cake {
         height: 0;
         width: 0;
+    }
+
+    .logo-nav .navigation {
+       align-items: center;
     }
 }
