@@ -10,39 +10,52 @@
 </head>
 <body>
     <!-- HEADER START -->
-    <header>
-        <nav class="fix-size-container">
+    <header class="header">
+        <div class="fix-size-container navigation">
             <div class="navigation">
-                <ul class="navigation">
-                    <a href="#"><img class="image" src="images/logo_lokalise.svg" alt="logo"></a>
-                    <li class="item margin"><a class="link" href="#">Product</a></li>
-                    <li class="item"><a class="link" href="#">Features</a></li>
-                    <li class="item"><a class="link" href="#">Pricing</a></li>
-                    <li class="item"><a class="link" href="#">Case studies</a></li>
-                    <li class="item"><a class="link" href="#">Resources</a></li>
-                </ul>
-                <div class="navigation margin">
-                    <button class="button-first">Log in</button>
-                    <button class="button-second margin">Try it free</button>
+                <div class="logo-nav navigation">
+                    <div class="logo">
+                        <a href="#"><img src="images/logo_lokalise.svg" alt="logo"></a>
+                    </div>
+                <div>
+                    <nav>
+                        <ul class="list-items">
+                            <li class="item margin"><a class="link" href="#">Product</a></li>
+                            <li class="item"><a class="link" href="#">Features</a></li>
+                            <li class="item"><a class="link" href="#">Pricing</a></li>
+                            <li class="item"><a class="link" href="#">Case studies</a></li>
+                            <li class="item"><a class="link" href="#">Resources</a></li>
+                        </ul>
+                    </nav>
+                </div>
                 </div>
             </div>
-            <hr class="line">
-        </nav>
+            <div class="button-container">
+                <button class="button-first">Log in</button>
+                <button class="button-second margin">Try it free</button>
+            </div>
+        </div>
     </header>
     <!-- HEADER END -->
+    <hr class="line">
     <!-- MAIN START -->
     <main>
-        <section>
-            <div class="fix-size-container">
-                <div class="box">
+        <section class="section-first">
+            <div class="fix-size-container image-flex">
+                <div class="section-first_text">
                     <h1 class="title">Accelerate localization from code to delivery</h1>
                     <p class="description-text">
                         A localization and translation management platform for agile teams. 
                         Embrace automation, workflow transparency, and fast project delivery.
                     </p>
-                    <button class="button-second size-button">Try it free</button>
-                    <button class="button-first size-button">Book a demo</button>
+                    <div class="section-first_button">
+                        <button class="button-second size-button">Try it free</button>
+                        <button class="button-first size-button">Book a demo</button>  
+                    </div>
                     <p class="text">Try all features for 14 days · No credit card required</p>
+                </div>
+                <div class="image-flex">
+                    <img class="image-main" src="images/image_bacground.svg" alt="accelerate_localization">
                 </div>
             </div>
         </section>
@@ -71,14 +84,14 @@
                     <div class="box-size">
                         <h2 class="title-content">Control the localization process</h2>
                         <p class="text-box">
-                            Collaborate with your team in a single workspace. Add and assign <a class="link"
+                            Collaborate with your team in a single workspace. Add and assign <a class="link size"
                             href="#">tasks</a>, track progress, and enjoy a seamless localization workflow where you know who is
                             doing what and when.
                         </p>
                         <a class="text-start" href="#">Start now</a>
                     </div>
-                    <div>
-                        <img src="images/image_project_app.png" width="632" height="632" alt="project_app">
+                    <div class="image-order">
+                        <img class="img-colaborate" src="images/image_project_app.png" width="632" height="632" alt="project_app">
                     </div>
                 </div>
                 <div class="fix-size-container block-size reverse">
@@ -93,8 +106,8 @@
                         </p>
                         <a  class="text-start" href="#">Start now</a> 
                     </div>
-                    <div>
-                        <img src="images/image_git_hub.svg" width="632px" height="632px" alt="git_hub">
+                    <div class="image-order"> 
+                        <img class="img-colaborate" src="images/image_git_hub.svg" width="632px" height="632px" alt="git_hub">
                     </div>
                 </div> 
                 <div class="fix-size-container block-size image-flex">
@@ -107,8 +120,8 @@
                             and use the <a class="link-text" href="#">in-context editors</a> for instant previews.
                         </p>
                         <a class="text-start" href="#">Start now</a>
-                    </div>
-                        <img src="images/image_contacts.svg" width="632px" alt="image_contacts">
+                    </div class="image-order">
+                        <img class="img-colaborate" src="images/image_contacts.svg" width="632px" alt="image_contacts">
                     </div>
                 </div>
                 <div class="fix-size-container block-size reverse">
@@ -122,8 +135,8 @@
                         </p>
                         <a class="text-start" href="#">Start now</a>
                     </div>
-                    <div>
-                        <img src="images/image_contacts.svg" width="632px" alt="image_contacts">
+                    <div class="image-order">
+                        <img class="img-colaborate" src="images/image_contacts.svg" width="632px" alt="image_contacts">
                     </div>
                 </div>
             </div>
@@ -206,7 +219,7 @@
         </section>
         <section class="background-revolut">
             <div class="fix-size-container card-revolut-flex">
-                <div>
+                <div class="order-image">
                     <p class="text-revolut-about">“Lokalise has turned a task we were dreading into an absolute pleasure. Great platform, intuitive UX, powerful API. The
                         automatic text recognition for screenshots has been a lifesaver, and over-the-air updates are the icing on the cake.”
                     </p>
@@ -230,27 +243,9 @@
                         <h4 class="cake-title">The most-loved translation management software</h4>
                     </div>
                     <hr class="line-cake">
-                    <div class="span-cake-first span-cake-second">
-                        <img src="images/icon_G2.svg" alt="icon_G2">
-                        <div class="icon-star">
-                            <img src="images/star_1.svg" alt="star_1">
-                            <img src="images/star_2.svg" alt="star_2">
-                            <img src="images/star_3.svg" alt="star_3">
-                            <img src="images/star_4.svg" alt="star_4">
-                            <img src="images/star_5.svg" alt="star_5">
-                        </div>
-                        <p class="star-description">USERS LOVE US</p>
-                    </div>
                     <div class="span-cake-first">
-                        <img src="images/logo_captera.svg" alt="logo_capterra">
-                        <div class="icon-star">
-                            <img src="images/star_6.svg" alt="star_6.svg">
-                            <img src="images/star_7.png" alt="star_7.png">
-                            <img src="images/star_8.svg" alt="star_8.svg">
-                            <img src="images/star_9.svg" alt="star_9.sv">
-                            <img src="images/star_10.svg" alt="star_10.svg">
-                        </div>
-                        <p class="star-description">HIGHEST RATED</p>
+                        <img class="icon margin" src="images/Users_love_us.svg" alt="icon_G2">
+                        <img class="icon" src="images/Сapterra.svg" alt="logo_capterra">
                     </div>
                 </div>
             </div>
@@ -263,7 +258,7 @@
                 </p>
             </div>
             <div class="tools-flex">
-                <img  src="images/image_bird.svg" width="1023px" height="445px" alt="bird">
+                <img class="img-bird" src="images/image_bird.svg" width="1023px" height="445px" alt="bird">
             </div>
             <div class="button-flex">
                 <button class="button-tools">See all integrations</button>
@@ -349,11 +344,11 @@
                     </ul>
                 </div>
             </div>
-            <div class="fix-size-container background-color-line">
+            <div class="background-color-line">
                 <hr class="line-footer">
             </div>
-            <div class="fix-size-footer">
-                <div class="flex-footer box-padding">
+            <div>
+                <div class="fix-size-container flex-footer box-padding">
                     <div class="flex-footer">
                         <div class="image-localise">
                             <a href="#">
